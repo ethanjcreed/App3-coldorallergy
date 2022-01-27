@@ -50,6 +50,11 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
         function coldAdd(){
             cold_count = cold_count + 1;
         }
+//tried to see if this function will work for the results page
+	function results(){
+            var allergy_percent = (allergy_count/4) *100;
+	    var cold_percent = (cold_count/4) *100;
+	}
 
   </script>
 
@@ -139,7 +144,7 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
          	<a href="#five"  onclick="coldAdd();" class="w3-btn w3-black">No</a>
     	</div>
 </div>
-	
+
 <div class="page" id="five">
 	<div id="header" class="w3-container w3-flat-carrot">
 		<h1>Results</h1>
@@ -147,7 +152,7 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
 	
     	<div id="content" class="w3-container">
         <p>Results</p>  
-		<a onclick="allergyAdd();" class="w3-btn w3-black"> Yes</a>
+		<a onclick="results();" class="w3-btn w3-black"> Get Results </a>
        
     	</div>
 </div>
