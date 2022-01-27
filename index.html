@@ -7,7 +7,7 @@ THIS CODE SHOULD NOT BE USED TO DIAGNOSE ANY KIND OF MEDICAL CONDITION.
  
 Authors in chronological order of contribution:
 Tim Riedel
-Author 2
+Ethan Creed
  
 Further Information:
 http://cns.utexas.edu/fri
@@ -17,10 +17,10 @@ Timothy Riedel
 triedel@utexas.edu
  
 Brief Description of Goal of Code:
-blah, blah, blah,
+To help the user determine whether or not they have a cold or allergies. These ailments are difficult to distinguish between, this tool can help the user distinguish which they have.
  
 Known Issues:
-blah, blah, blah, blah
+The code runs smoothly, it just needs a better interface.
 
 https://www.w3schools.com/w3css/default.asp
 https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-file
@@ -50,7 +50,7 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
         function coldAdd(){
             cold_count = cold_count + 1;
         }
-//tried to see if this function will work for the results page
+//This function should get the results and find them as a percentage, determining which illness the user has.
 	function results(){
             var allergy_percent = (allergy_count/4) *100;
 	    var cold_percent = (cold_count/4) *100;
@@ -149,6 +149,7 @@ resultText.innerHTML = "Probability it is allergies =" + allergy_percent + "<br>
     	</div>
 </div>
 
+//These two pages are the results pages, so that the results function will work and display here.
 <div class="page" id="five">
 	<div id="header" class="w3-container w3-flat-carrot">
 		<h1>Results</h1>
